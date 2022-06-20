@@ -1,0 +1,16 @@
+1. what is a merge conflict ?
+
+ A merge conflict is an event that takes place when Git is unable to automatically 
+ resolve differences in code between two commits. Git can merge the changes automatically 
+ only if the commits are on different lines or branches.
+
+2.where is the conflict how to identify ?
+
+  To see the beginning of the merge conflict in your file, search the file for the conflict marker  .
+  When you open the file in your text editor, you'll see the changes from the HEAD or base branch after the line head .
+
+3. How to resolve the conflict ?
+
+ a. Under your repository name, click Pull requests.
+ b. In the "Pull Requests" list, click the pull request with a merge conflict that you'd like to resolve.
+ c. Near the bottom of your pull request, click Resolve conflicts.
